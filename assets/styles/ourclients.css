@@ -1,0 +1,68 @@
+.ourclients {
+    position: absolute;
+    top: 740px;
+    display: flex;
+    width: 100%;
+    height: 218px;
+}
+
+.ourclients-conteudo {
+    margin-left: 110px;
+    width: 336px;
+    font-family: 'Sarala', sans-serif
+}
+
+.ourclients-titulo {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.ourclients-texto {
+    font-size: 18px;
+    color: var(--cor-texto-corrido);
+}
+
+.ourclients-logos {
+    margin-left: 35px;
+    width: 886px;
+}
+
+.ourclients-logo {
+    margin: 68px 20px 18px 20px;
+}
+
+.uber-eats {
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.uber-eats:hover {
+    transform: scale(1.1);
+}
+
+.amazon {
+    margin-bottom: 13px;
+    margin-right: 35px;
+    transition: 0.5s;
+}
+
+.amazon:hover {
+    transform: scale(1.1);
+}
+
+.airbnb {
+    transition: 0.5s;
+}
+
+.airbnb:hover {
+    transform: scale(1.1);
+}
+
+.google {
+    transition: 0.5s;
+}
+
+.google:hover {
+    transform: scale(1.1);
+}
