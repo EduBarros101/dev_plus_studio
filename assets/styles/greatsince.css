@@ -1,0 +1,64 @@
+.greatsince {
+    position: absolute;
+    top: 1995px;
+    height: 436px;
+    width: 100%;
+    display: flex;
+}
+
+.botao-de-play {
+    z-index: 1;
+    left: 280px;
+    top: 175px;
+    position: absolute;
+
+    transition: 0.8s;
+}
+
+.botao-de-play:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.retangulo-greatsince {
+    position: absolute;
+    top: 58px;
+    left: 725px;
+}
+
+.circulo-greatsince {
+    position: absolute;
+    left: 500px;
+    top: 335px;
+    z-index: -1;
+}
+
+.conteudo-greatsince {
+    margin-top: 82px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.titulo-greatsince {
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 1;
+    width: 468px;
+    margin-left: 100px;
+    position: absolute;
+    line-height: 120%;
+}
+
+.paragrafo-greatsince {
+    margin-top: 115px;
+    width: 532px;
+    font-size: 16px;
+    color: var(--cor-texto-corrido);
+    margin-left: 100px;
+    position: absolute;
+    padding-top: 15px;
+
+}
+
+
+
+
