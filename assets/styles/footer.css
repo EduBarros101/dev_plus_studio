@@ -1,0 +1,45 @@
+#footer {
+  font-family: 'Sarala', sans-serif;
+  font-size: 14px;
+}
+
+#copyright {
+  font-size: 14px;
+  color: rgba(164, 164, 164, 1);
+  text-align: center;
+  margin-top: 16px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0px 122px 0px;
+  padding: 63px 0 30px;
+
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.footer__div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 270px;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__div2 {
+  display: flex;
+  justify-content: space-between;
+
+  width: 620px;
+}
+
+.footer__div2 h3 {
+  margin-bottom: 24px;
+}
