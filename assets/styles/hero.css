@@ -1,75 +1,72 @@
-.hero-headline {
-    height: 652px;
-    top: 116px;
-    width: 100%;
-    display: flex;
-    position: absolute;
+#hero-headline {
+  height: 652px;
+  top: 116px;
+  width: 100%;
+  display: flex;
+  position: relative;
 }
 
 .conteudo-hero {
-    width: 650px;
-    margin-top: 90px;
-    font-family: 'Sarala', sans-serif;
+  width: 650px;
+  margin-top: 90px;
+  font-family: 'Sarala', sans-serif;
 }
 
 .titulo-hero {
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 110px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 110px;
 }
 
 .texto-hero {
-    font-size: 16px;
-    width: 450px;
-    margin-left: 110px;
-    padding: 15px 0 35px 0;
-    line-height: 160%;
-    color: var(--cor-texto-corrido);
+  font-size: 16px;
+  width: 450px;
+  margin-left: 110px;
+  padding: 15px 0 35px 0;
+  line-height: 160%;
+  color: var(--cor-texto-corrido);
 }
 
 .botao-hero {
-    background-color: var(--azul-principal);
-    border-radius: 50px;
-    margin-left: 110px;
-    padding: 15px 55px;
+  background-color: var(--azul-principal);
+  border-radius: 50px;
+  margin-left: 110px;
+  padding: 15px 55px;
 
-    color: var(--branco);
-    font-size: 20px;
-    font-weight: bold;
+  color: var(--branco);
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .botao-hero:hover {
-    padding: 20px 60px;
-    background-color:  #4b56b9;
+  padding: 20px 60px;
+  background-color: #4b56b9;
 }
 
 .botao-hero:active {
-    background-color: rgb(165, 42, 61);
+  background-color: rgb(165, 42, 61);
 }
 
 .imagem-hero {
-    width: 600px;
-    left: 700px;
-    position: absolute;
-    top: 0px;
-    z-index: 1;
+  width: 600px;
+  left: 700px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
 }
 
 .circulo-hero {
-    width: 100px;
-    height: 100px;
-    left: 655px;
-    position: absolute;
-    z-index: 0;
+  width: 100px;
+  height: 100px;
+  left: 655px;
+  position: absolute;
+  z-index: 0;
 }
 
 .retangulo-hero {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 370px;
-    left: 1100px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 370px;
+  left: 1100px;
 }
-
-
-
