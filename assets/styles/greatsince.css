@@ -1,9 +1,10 @@
 .greatsince {
-    position: absolute;
-    top: 1995px;
-    height: 436px;
-    width: 100%;
+    position: relative;
     display: flex;
+    margin: 100px auto 200px;
+
+    height: 436px;
+    max-width: 1440px;
 }
 
 .botao-de-play {

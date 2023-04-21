@@ -1,9 +1,8 @@
 .newsletter {
-    width: 100%;
-    position: absolute;
-    top: 2726px;
+    max-width: 1440px;
+    position: relative;
     display: flex;
-
+    margin: 0 auto;
 }
 
 .backgroud {
