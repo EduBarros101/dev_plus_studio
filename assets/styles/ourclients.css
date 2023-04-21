@@ -1,7 +1,7 @@
 #ourclients {
-  position: relative;
+  /* position: relative; */
   display: flex;
-  margin: 0 auto;
+  margin: 50px auto;
 
   max-width: 1440px;
   height: 218px;
