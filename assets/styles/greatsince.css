@@ -1,9 +1,8 @@
 .greatsince {
     position: relative;
+    height: 436px;
     display: flex;
     margin: 100px auto 200px;
-
-    height: 436px;
     max-width: 1440px;
 }
 
