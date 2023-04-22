@@ -1,74 +1,85 @@
 #hero-headline {
-  height: 652px;
-  top: 116px;
-  max-width: 1440px;
-  margin: 0 auto;
-
-  display: flex;
   position: relative;
 }
 
-.conteudo-hero {
-  width: 650px;
-  margin-top: 90px;
+.hero-container {
+  display: flex;
+  max-width: 1440px;
+  height: 580px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-left: 120px;
+}
+
+.hero-conteudo {
+  display: flex;
+  flex-direction: column;
+
   font-family: 'Sarala', sans-serif;
+
+  max-width: 471px;
+  margin-top: 123px;
 }
 
-.titulo-hero {
-  font-size: 40px;
-  font-weight: bold;
-  margin-left: 110px;
+.hero-titulo {
+  font-size: 39px;
 }
 
-.texto-hero {
+.hero-text {
   font-size: 16px;
   width: 450px;
-  margin-left: 110px;
   padding: 15px 0 35px 0;
   line-height: 160%;
   color: var(--cor-texto-corrido);
 }
 
 .botao-hero {
+  max-width: 215px;
+  padding: 20px 40px;
+
+  text-align: center;
+
   background-color: var(--azul-principal);
   border-radius: 50px;
-  margin-left: 110px;
-  padding: 15px 55px;
 
   color: var(--branco);
   font-size: 20px;
-  font-weight: bold;
+
+  transition: 150ms;
 }
 
 .botao-hero:hover {
-  padding: 20px 60px;
   background-color: #4b56b9;
+
+  transform: scale(1.1);
 }
 
 .botao-hero:active {
   background-color: rgb(165, 42, 61);
 }
 
-.imagem-hero {
-  width: 600px;
-  left: 700px;
-  position: absolute;
-  top: 0px;
-  z-index: 1;
+.hero-imagens {
+  position: relative;
+  width: 815px;
 }
 
 .circulo-hero {
-  width: 100px;
-  height: 100px;
-  left: 655px;
+  width: 129px;
   position: absolute;
-  z-index: 0;
 }
 
 .retangulo-hero {
-  width: 100px;
-  height: 100px;
+  width: 178px;
   position: absolute;
-  top: 370px;
-  left: 1100px;
+  right: 120px;
+  bottom: 0;
+}
+
+.imagem-hero {
+  position: absolute;
+
+  /* max-width: 700px; */
+
+  top: 0px;
+  right: 0;
 }
